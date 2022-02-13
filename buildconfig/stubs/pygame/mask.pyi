@@ -56,3 +56,5 @@ class Mask:
         unsetcolor: Optional[ColorValue] = (0, 0, 0, 255),
         dest: Union[RectValue, Coordinate] = (0, 0),
     ) -> Surface: ...
+
+MaskType = Mask
